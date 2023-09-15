@@ -1,4 +1,5 @@
-import Navbar from '../Components/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
+import './crew.css';
 
 const Crew: React.FC = () => {
   return (

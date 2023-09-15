@@ -1,9 +1,9 @@
 import React from 'react';
-import Crew from './Pages/Crew';
-import Destination from './Pages/Destination';
-import Home from './Pages/Home';
+import Crew from './Pages/Crew/Crew';
+import Destination from './Pages/Destination/Destination';
+import Home from './Pages/Home/Home';
 import { Route, Routes } from 'react-router';
-import Technology from './Pages/Technology';
+import Technology from './Pages/Technology/Technology';
 
 function App() {
   return (
