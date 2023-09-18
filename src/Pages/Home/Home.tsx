@@ -4,24 +4,25 @@ import './home.css';
 
 const Home: React.FC = () => {
   return (
-    <div className=" mainHomeDiv">
+    <div className="homeBackground ">
       <Navbar />
+      <div className="mainHomeDiv">
+        <div className="textContainer">
+          <h3 className=" title">SO, YOU WANT TO TRAVEL TO</h3>
+          <h1 className="subtitle">SPACE</h1>
+          <p className="subtitleText">
+            Let’s face it; if you want to go to space, you might as well
+            genuinely go to outer space and not hover kind of on the edge of it.
+            Well sit back, and relax because we’ll give you a truly out of this
+            world experience!
+          </p>
+        </div>
 
-      <h1 className=" titleDiv">
-        <span className=" titleSpan">SO, YOU WANT TO TRAVEL TO</span>
-        Space
-      </h1>
-      <p>
-        Let’s face it; if you want to go to space, you might as well genuinely
-        go to outer space and not hover kind of on the edge of it. Well sit
-        back, and relax because we’ll give you a truly out of this world
-        experience!
-      </p>
-
-      <div className="mainLinkDiv">
-        <NavLink className=" homeLink" to="/destination">
-          Explore
-        </NavLink>
+        <div className="mainLinkDiv">
+          <NavLink className="homeLink" to="/destination">
+            EXPLORE
+          </NavLink>
+        </div>
       </div>
     </div>
   );

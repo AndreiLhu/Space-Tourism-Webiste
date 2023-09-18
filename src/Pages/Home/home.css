@@ -1,5 +1,59 @@
+.homeBackground {
+  background-image: url(../../../public/assets/home/background-home-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: auto;
+}
+
 .mainHomeDiv {
-  /* background-image: url(../../../public/assets/home/background-home-desktop.jpg);
-  width: 100%;
-  height: 100%; */
+  display: flex;
+  margin-left: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 40vh;
+}
+
+@media screen and (max-width: 768px) {
+  .homeBackground {
+    background-image: url(../../../public/assets/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.textContainer {
+  color: white;
+  max-width: 450px;
+  text-align: left;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+.subtitle {
+  font-size: 140px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+.subtitleText {
+  font-weight: 200;
+  font-size: 20px;
+}
+.mainLinkDiv {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.3), 0 2px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 100%;
+}
+.homeLink {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
 }
