@@ -2,15 +2,14 @@
   display: flex;
   width: 100%;
   padding-top: 30px;
-  margin-left: 10vh;
+  padding-left: 10vh;
 }
 .lineNavbar {
-  border: 2px solid white;
-  max-height: 1px;
-  width: 450px;
+  border-bottom: 1px solid white;
+  width: 30%;
   align-self: center;
-  /* position: relative; */
-  margin-left: 150px;
+  z-index: 99;
+  margin-left: 100px;
 }
 
 .navbarLinksContainer {
@@ -18,15 +17,15 @@
   background: rgba(255, 255, 255, 0.04);
   align-self: center;
   margin-left: auto;
-
-  padding-left: 60px;
+  padding-right: 10%;
+  padding-left: 5%;
   padding-top: 25px;
   padding-bottom: 25px;
 }
 .navbarLinksContainer a {
   margin: 20px;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .navLogo {
   width: auto;

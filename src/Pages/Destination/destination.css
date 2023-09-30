@@ -1,0 +1,14 @@
+.destinationBackground {
+  background-image: url(../../../public/assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: auto;
+}
+
+.destinationInfoContainer {
+  color: aliceblue;
+}
+.mainTitle {
+  color: aliceblue;
+}
