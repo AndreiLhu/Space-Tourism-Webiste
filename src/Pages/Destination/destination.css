@@ -5,6 +5,7 @@
   background-size: cover;
   min-height: 100vh;
 }
+
 .mainContentDiv {
   display: flex;
   margin-left: 20vh;
@@ -19,16 +20,10 @@
   max-width: 450px;
   text-align: left;
 }
-.mainTitle {
-  color: aliceblue;
-  font-weight: 200;
-  margin-bottom: 80px;
-  margin-top: -30px;
+.mainDestinationPicture {
+  margin: auto;
+  width: 90%;
 }
-.numberTitle {
-  color: gray;
-}
-
 .planetsNameButton {
   border: none;
   background: transparent;

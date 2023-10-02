@@ -27,6 +27,10 @@
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
+
+.navbarLinksContainer a:hover {
+  text-decoration: underline;
+}
 .navLogo {
   width: auto;
   height: 50px;

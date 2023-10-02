@@ -23,6 +23,7 @@ const Destination: React.FC = () => {
           </h1>
 
           <Picture
+            className="mainDestinationPicture"
             alt={destinations[planetId].name}
             pngPicture={destinations[planetId].images.png}
             webpPicture={destinations[planetId].images.webp}

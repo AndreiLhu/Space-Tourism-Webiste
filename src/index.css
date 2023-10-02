@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.mainTitle {
+  color: aliceblue;
+  font-weight: 200;
+  margin-bottom: 80px;
+  margin-top: -30px;
+}
+.numberTitle {
+  color: gray;
+}
