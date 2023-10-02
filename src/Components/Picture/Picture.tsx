@@ -1,3 +1,5 @@
+import './picture.css';
+
 type tPictureProps = {
   alt: string;
   className?: string;
@@ -7,7 +9,7 @@ type tPictureProps = {
 
 const Picture = ({
   alt,
-  className = '',
+  className = 'mainPlanetPicture',
   pngPicture,
   webpPicture,
 }: tPictureProps) => {

@@ -1,0 +1,30 @@
+.mainContainer {
+  letter-spacing: 0.05rem;
+}
+.mainPlanetName {
+  font-size: 100px;
+  font-weight: 200;
+}
+.planetDescription {
+  line-height: 24px;
+}
+
+.descriptionLine {
+  border-bottom: 1px solid white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.distanceContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.distanceSubtitle {
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.distanceValue {
+  font-size: 25px;
+  font-weight: 200;
+}

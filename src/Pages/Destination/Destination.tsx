@@ -2,8 +2,8 @@ import React from 'react';
 import Navbar from '../../Components/Navbar/Navbar';
 import './destination.css';
 import data from '../../data/destinations.json';
-import Picture from '../../Components/Picture';
-import DestinationsInfo from '../../Components/DestinationsInfo';
+import Picture from '../../Components/Picture/Picture';
+import DestinationsInfo from '../../Components/DestinationsInfo/DestinationsInfo';
 
 const Destination: React.FC = () => {
   const { destinations } = data;
@@ -16,22 +16,30 @@ const Destination: React.FC = () => {
   return (
     <div className="destinationBackground">
       <Navbar />
-      <h1 className="mainTitle">01 Pick your destination</h1>
-      <ul>
-        {destinations.map((planetInfo, index) => (
-          <button key={index} onClick={() => onChangePlanet(index)}>
-            {planetInfo.name}
-          </button>
-        ))}
-      </ul>
+      <div className="mainContentDiv">
+        <div className="firstDivContainer">
+          <h1 className="mainTitle">
+            <span className="numberTitle">01</span> PICK YOUR DESTINATION
+          </h1>
 
-      <div>
-        <Picture
-          alt={destinations[planetId].name}
-          pngPicture={destinations[planetId].images.png}
-          webpPicture={destinations[planetId].images.webp}
-        />
+          <Picture
+            alt={destinations[planetId].name}
+            pngPicture={destinations[planetId].images.png}
+            webpPicture={destinations[planetId].images.webp}
+          />
+        </div>
         <div className="destinationInfoContainer">
+          <ul className="planetsNameButtonsContainer">
+            {destinations.map((planetInfo, index) => (
+              <button
+                key={index}
+                onClick={() => onChangePlanet(index)}
+                className="planetsNameButton"
+              >
+                {planetInfo.name.toUpperCase()}
+              </button>
+            ))}
+          </ul>
           <DestinationsInfo
             name={destinations[planetId].name}
             description={destinations[planetId].description}
