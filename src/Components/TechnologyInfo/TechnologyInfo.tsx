@@ -1,3 +1,4 @@
+import './technologyInfo.css';
 interface TechnologyInfoContainerProps {
   name: string;
   description: string;
@@ -10,16 +11,17 @@ const TechnologyInfo = ({
   images,
 }: TechnologyInfoContainerProps) => {
   return (
-    <div className="mainTechnologyContainer">
+    <div className="mainTechnologyInfoContainer">
       <div>
-        <h2 className="mainTechnologyName">{name}</h2>
+        <h4 className="terminology">THE TERMINOLOGY...</h4>
+        <h2 className="mainTechnologyInfoName">{name}</h2>
         <p className="descriptionInfo">{description}</p>
-        <img
-          alt={`image of the ${name}`}
-          src={images}
-          className="mainTechnologyPicture"
-        />
       </div>
+      <img
+        alt={`image of the ${name}`}
+        src={images}
+        className="mainTechnologyPicture"
+      />
     </div>
   );
 };

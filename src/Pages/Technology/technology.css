@@ -6,7 +6,38 @@
   min-height: 100vh;
 }
 
-.mainTechnologyPicture {
-  margin: auto;
-  width: 300px;
+.mainContentTechnologyDiv {
+  margin-left: 20vh;
+  margin-top: 15vh;
+  color: aliceblue;
+  letter-spacing: 0.05rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainTechnologyTitle {
+  color: aliceblue;
+  font-weight: 200;
+  margin-top: 10vh;
+  margin-left: 20vh;
+}
+.numberTechnologyTitle {
+  color: gray;
+}
+
+.technologyButton {
+  font-size: 30px;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  background: transparent;
+  border: 1px solid white;
+  color: aliceblue;
+  display: grid;
+  align-items: center;
+}
+.technologyButton:hover {
+  background-color: aliceblue;
+  color: black;
 }

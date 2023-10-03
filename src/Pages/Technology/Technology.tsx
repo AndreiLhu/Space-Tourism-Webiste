@@ -15,28 +15,28 @@ const Technology: React.FC = () => {
     <>
       <div className="technologyBackground">
         <Navbar />
-        <div className="mainContentCrewDiv">
-          <h1 className="mainTitle">
-            <span className="numberTitle">02</span> MEET YOUR CREW
-          </h1>
-        </div>
-        <TechnologyInfo
-          name={technology[technologyId].name}
-          description={technology[technologyId].description}
-          images={technology[technologyId].images.portrait}
-        />
+        <h1 className="mainTechnologyTitle">
+          <span className="numberTechnologyTitle">03</span> SPACE LAUNCH 101
+        </h1>
+        <div className="mainContentTechnologyDiv">
+          <ul className="technologyButtonContainer">
+            {technology.map((technologyInfo, index) => (
+              <button
+                key={index}
+                onClick={() => onChangeTechnology(index)}
+                className="technologyButton"
+              >
+                {index + 1}
+              </button>
+            ))}
+          </ul>
 
-        <ul>
-          {technology.map((technologyInfo, index) => (
-            <button
-              key={index}
-              onClick={() => onChangeTechnology(index)}
-              className="technologyButton"
-            >
-              {index + 1}
-            </button>
-          ))}
-        </ul>
+          <TechnologyInfo
+            name={technology[technologyId].name}
+            description={technology[technologyId].description}
+            images={technology[technologyId].images.portrait}
+          />
+        </div>
       </div>
     </>
   );

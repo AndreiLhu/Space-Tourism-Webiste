@@ -1,0 +1,21 @@
+.mainTechnologyInfoContainer {
+  display: flex;
+}
+.terminology {
+  font-weight: 100;
+}
+
+.mainTechnologyPicture {
+  width: 450px;
+}
+.descriptionInfo {
+  max-width: 500px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.mainTechnologyInfoName {
+  font-size: 70px;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
