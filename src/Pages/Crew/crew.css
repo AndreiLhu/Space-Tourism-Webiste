@@ -11,21 +11,24 @@
 }
 
 .crewButton {
-  border: 2px solid white;
+  border: 3px solid rgb(185, 185, 185);
   border-radius: 50%;
-  margin: 5px;
-  margin-top: 50px;
+  margin: 10px;
+  margin-top: 100px;
 }
 .crewButtonCircle {
-  background-color: azure;
+  background-color: rgb(185, 185, 185);
   width: 10px;
   height: 10px;
+}
+.crewButton:hover {
+  border: 4px solid rgb(185, 185, 185);
+  transition: 0.1s ease-in-out;
 }
 .mainContentCrewDiv {
   display: flex;
   margin-left: 20vh;
   justify-content: space-around;
-  align-items: center;
   margin: auto;
   margin-top: 15vh;
   width: 90%;

@@ -4,13 +4,13 @@
   padding-top: 30px;
   padding-left: 10vh;
 }
-.lineNavbar {
+/* .lineNavbar {
   border-bottom: 1px solid white;
   width: 30%;
   align-self: center;
   z-index: 99;
   margin-left: 100px;
-}
+} */
 
 .navbarLinksContainer {
   backdrop-filter: blur(40.7742px);
