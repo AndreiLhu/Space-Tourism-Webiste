@@ -18,32 +18,36 @@ const Crew: React.FC = () => {
       <div className="crewBackground">
         <Navbar />
         <div className="mainContentCrewDiv">
-          <h1 className="mainTitle">
-            <span className="numberTitle">02</span> MEET YOUR CREW
-          </h1>
+          <div className="crewInfoContainer">
+            <h1 className="mainTitle crewTitle">
+              <span className="numberTitle">02</span> MEET YOUR CREW
+            </h1>
+            <CrewInfo
+              role={crew[crewId].role.toLocaleUpperCase()}
+              name={crew[crewId].name}
+              bio={crew[crewId].bio}
+            />
+            <ul>
+              {crew.map((crewInfo, index) => (
+                <button
+                  key={index}
+                  onClick={() => onChangeCrew(index)}
+                  className="crewButton"
+                >
+                  <div className="crewButtonCircle"></div>
+                </button>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <Picture
+              className="mainCrewPicture"
+              alt={crew[crewId].name}
+              pngPicture={crew[crewId].images.png}
+              webpPicture={crew[crewId].images.webp}
+            />
+          </div>
         </div>
-        <CrewInfo
-          name={crew[crewId].name}
-          role={crew[crewId].role}
-          bio={crew[crewId].bio}
-        />
-        <Picture
-          className="mainCrewPicture"
-          alt={crew[crewId].name}
-          pngPicture={crew[crewId].images.png}
-          webpPicture={crew[crewId].images.webp}
-        />
-        <ul>
-          {crew.map((crewInfo, index) => (
-            <button
-              key={index}
-              onClick={() => onChangeCrew(index)}
-              className="crewButton"
-            >
-              0
-            </button>
-          ))}
-        </ul>
       </div>
     </>
   );

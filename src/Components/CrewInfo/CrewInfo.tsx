@@ -1,3 +1,4 @@
+import './crewInfo.css';
 interface CrewInfoContainerProps {
   name: string;
   role: string;
@@ -8,13 +9,11 @@ const CrewInfo = ({ name, role, bio }: CrewInfoContainerProps) => {
   return (
     <div className="mainCrewContainer">
       <div>
-        <h2 className="mainCrewtName">{name}</h2>
-        <p className="crewDescription">{role}</p>
+        <p className="crewRole">{role}</p>
+        <h2 className="mainCrewName">{name}</h2>
 
         <div>
-          <div>
-            <p className="crewBio">{bio}</p>
-          </div>
+          <p className="crewBio">{bio}</p>
         </div>
       </div>
     </div>
