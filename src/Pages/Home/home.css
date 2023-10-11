@@ -13,15 +13,7 @@
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  margin-top: 35vh;
-}
-
-@media screen and (max-width: 768px) {
-  .homeBackground {
-    background-image: url(../../../public/assets/home/background-home-tablet.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  padding-top: 25vh;
 }
 
 .textContainer {
@@ -64,4 +56,46 @@
   text-decoration: none;
   font-size: 30px;
   color: black;
+}
+@media screen and (max-width: 900px) {
+  .homeBackground {
+    background-image: url(../../../public/assets/home/background-home-tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .mainHomeDiv {
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .subtitle {
+    font-size: 100px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .textContainer {
+    text-align: center;
+  }
+  .mainLinkDiv {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .homeBackground {
+    background-image: url(../../../public/assets/home/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .textContainer {
+    text-align: center;
+    max-width: 350px;
+  }
+  .subtitle {
+    font-size: 80px;
+  }
+  .mainLinkDiv {
+    width: 220px;
+    height: 220px;
+  }
 }
