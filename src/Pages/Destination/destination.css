@@ -38,6 +38,25 @@
 }
 .planetsNameButtonsContainer {
   justify-content: space-between;
-  display: flex;
-  width: 50%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  .mainContentDiv {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    text-align: -webkit-center;
+  }
+  .mainDestinationPicture {
+    max-width: 350px;
+  }
+  .destinationInfoContainer {
+    text-align: center;
+  }
+  .planetsNameButtonsContainer {
+    align-items: center;
+    justify-content: center;
+  }
 }

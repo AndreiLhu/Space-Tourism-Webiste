@@ -35,3 +35,8 @@
   width: auto;
   height: 50px;
 }
+@media screen and (max-width: 900px) {
+  .mainNavbarContainer {
+    display: none;
+  }
+}

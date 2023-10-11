@@ -38,3 +38,11 @@
   max-width: 500px;
   text-align: left;
 }
+
+@media screen and (max-width: 760px) {
+  .mainContentCrewDiv {
+    display: block;
+  }
+  .mainCrewPicture {
+  }
+}

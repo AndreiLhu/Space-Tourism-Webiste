@@ -16,8 +16,10 @@
 }
 .distanceContainer {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
+  justify-content: flex-start;
+}
+.distanceContainer :first-child {
+  margin-right: 70px;
 }
 .distanceSubtitle {
   font-size: 12px;
@@ -27,4 +29,18 @@
 .distanceValue {
   font-size: 25px;
   font-weight: 200;
+}
+
+@media screen and (max-width: 500px) {
+  .distanceContainer {
+    display: block;
+
+    padding-bottom: 20px;
+  }
+  .distanceContainer :first-child {
+    margin-right: 0;
+  }
+  .travelTimeDiv {
+    margin-top: 20px;
+  }
 }

@@ -27,7 +27,7 @@ const DestinationsInfo = ({
               <p className="distanceValue">{distance.toLocaleUpperCase()}</p>
             </div>
 
-            <div>
+            <div className="travelTimeDiv">
               <h4 className="distanceSubtitle">EST. TRAVEL TIME</h4>
               <p className="distanceValue">{travelTime.toLocaleUpperCase()}</p>
             </div>
