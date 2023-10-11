@@ -6,7 +6,7 @@
   min-height: 100vh;
 }
 .mainCrewPicture {
-  width: 100%;
+  max-width: 600px;
   height: auto;
 }
 
@@ -39,10 +39,20 @@
   text-align: left;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1000px) {
   .mainContentCrewDiv {
     display: block;
+    padding-top: 15vh;
+    margin-top: 0;
+    text-align: -webkit-center;
   }
   .mainCrewPicture {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .crewBackground {
+    background-image: url(../../../public/assets/crew/background-crew-mobile.jpg);
   }
 }

@@ -22,6 +22,7 @@ const Crew: React.FC = () => {
             <h1 className="mainTitle crewTitle">
               <span className="numberTitle">02</span> MEET YOUR CREW
             </h1>
+
             <CrewInfo
               role={crew[crewId].role.toLocaleUpperCase()}
               name={crew[crewId].name}
