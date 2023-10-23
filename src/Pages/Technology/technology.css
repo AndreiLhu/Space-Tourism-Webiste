@@ -18,7 +18,7 @@
 .mainTechnologyTitle {
   color: aliceblue;
   font-weight: 200;
-  margin-top: 10vh;
+  padding-top: 10vh;
   margin-left: 20vh;
 }
 .numberTechnologyTitle {
@@ -36,8 +36,28 @@
   color: aliceblue;
   display: grid;
   align-items: center;
+  margin-right: 20px;
 }
 .technologyButton:hover {
   background-color: aliceblue;
   color: black;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainContentTechnologyDiv {
+    display: block;
+    padding-top: 15vh;
+    margin-top: 0;
+    text-align: -webkit-center;
+    margin: auto;
+  }
+  .technologyButton {
+    display: inline;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+  .mainTechnologyTitle {
+    margin: auto;
+    text-align: center;
+  }
 }

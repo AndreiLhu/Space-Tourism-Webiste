@@ -6,7 +6,7 @@
 }
 
 .mainTechnologyPicture {
-  width: 400px;
+  max-width: 400px;
 }
 .descriptionInfo {
   max-width: 500px;
@@ -18,4 +18,17 @@
   font-size: 70px;
   font-weight: 200;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .mainTechnologyInfoContainer {
+    display: block;
+  }
+  .mainTechnologyPicture {
+    width: 100%;
+  }
+  .descriptionInfo {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+  }
 }
