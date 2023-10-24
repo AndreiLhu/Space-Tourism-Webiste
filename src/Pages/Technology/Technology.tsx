@@ -29,6 +29,9 @@ const Technology: React.FC = () => {
                 className="technologyButton"
               >
                 {index + 1}
+                <div className="technologyInfoHiding">
+                  {technologyInfo.description}
+                </div>
               </button>
             ))}
           </ul>

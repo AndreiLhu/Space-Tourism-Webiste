@@ -5,6 +5,9 @@
   background-size: cover;
   min-height: 100vh;
 }
+.crewInfoHiding {
+  display: none;
+}
 .mainCrewPicture {
   max-width: 600px;
   height: auto;

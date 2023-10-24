@@ -24,7 +24,9 @@
 .numberTechnologyTitle {
   color: gray;
 }
-
+.technologyInfoHiding {
+  display: none;
+}
 .technologyButton {
   font-size: 30px;
   margin-bottom: 25px;

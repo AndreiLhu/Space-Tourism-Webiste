@@ -37,7 +37,9 @@ const Crew: React.FC = () => {
                   onClick={() => onChangeCrew(index)}
                   className="crewButton"
                 >
-                  <div className="crewButtonCircle"></div>
+                  <div className="crewButtonCircle">
+                    <div className="crewInfoHiding">{crewInfo.bio}</div>
+                  </div>
                 </button>
               ))}
             </ul>
