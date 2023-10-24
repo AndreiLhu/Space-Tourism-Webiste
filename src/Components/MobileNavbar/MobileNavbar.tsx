@@ -38,22 +38,22 @@ const MobileNavbar: React.FC = () => {
 
       {isMobileMenuOpen && (
         <div className="navList">
-          <div>
+          <div className="linkList">
             <Link to="/" onClick={() => toggleMobileMenu()}>
               <span>00</span>home
             </Link>
           </div>
-          <div>
+          <div className="linkList">
             <Link to="/destination" onClick={() => toggleMobileMenu()}>
               <span>01</span>destination
             </Link>
           </div>
-          <div>
+          <div className="linkList">
             <Link to="/crew" onClick={() => toggleMobileMenu()}>
               <span>02</span>crew
             </Link>
           </div>
-          <div>
+          <div className="linkList">
             <Link to="/technology" onClick={() => toggleMobileMenu()}>
               <span>03</span>technology
             </Link>

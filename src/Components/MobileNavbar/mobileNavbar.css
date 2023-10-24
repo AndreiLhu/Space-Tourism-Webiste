@@ -14,11 +14,13 @@
   font-size: 20px;
   margin-top: 20px;
 }
+.linkList {
+  margin-bottom: 10px;
+}
 
 .navList a {
   text-decoration: none;
   color: white;
-  padding-bottom: 30px;
   font-size: 22px;
 }
 .navList a:hover {
