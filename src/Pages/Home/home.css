@@ -66,6 +66,7 @@
   .mainHomeDiv {
     display: block;
     text-align: -webkit-center;
+    margin-top: -70px;
   }
 
   .subtitle {
@@ -86,6 +87,9 @@
     background-image: url(../../../public/assets/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .mainHomeDiv {
+    margin-top: -90px;
   }
   .textContainer {
     text-align: center;

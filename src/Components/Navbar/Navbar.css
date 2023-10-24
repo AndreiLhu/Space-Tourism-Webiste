@@ -1,9 +1,11 @@
 .mainNavbarContainer {
   display: flex;
+
   width: 100%;
   padding-top: 30px;
   padding-left: 10vh;
 }
+
 /* .lineNavbar {
   border-bottom: 1px solid white;
   width: 30%;

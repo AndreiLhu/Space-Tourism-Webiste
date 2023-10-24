@@ -9,7 +9,7 @@ import MobileNavbar from './Components/MobileNavbar/MobileNavbar';
 function App() {
   return (
     <React.Fragment>
-      <MobileNavbar />
+      {/* <MobileNavbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/crew" element={<Crew />} />

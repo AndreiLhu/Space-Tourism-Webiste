@@ -5,6 +5,7 @@ import data from '../../data/crew.json';
 import Picture from '../../Components/Picture/Picture';
 import './crew.css';
 import CrewInfo from '../../Components/CrewInfo/CrewInfo';
+import MobileNavbar from '../../Components/MobileNavbar/MobileNavbar';
 const Crew: React.FC = () => {
   const { crew } = data;
   const [crewId, setCrewId] = React.useState<number>(0);
@@ -16,6 +17,7 @@ const Crew: React.FC = () => {
   return (
     <>
       <div className="crewBackground">
+        <MobileNavbar />
         <Navbar />
         <div className="mainContentCrewDiv">
           <div className="crewInfoContainer">

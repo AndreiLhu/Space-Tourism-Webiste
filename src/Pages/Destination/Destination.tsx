@@ -4,6 +4,7 @@ import './destination.css';
 import data from '../../data/destinations.json';
 import Picture from '../../Components/Picture/Picture';
 import DestinationsInfo from '../../Components/DestinationsInfo/DestinationsInfo';
+import MobileNavbar from '../../Components/MobileNavbar/MobileNavbar';
 
 const Destination: React.FC = () => {
   const { destinations } = data;
@@ -16,6 +17,7 @@ const Destination: React.FC = () => {
   return (
     <div className="destinationBackground">
       <Navbar />
+      <MobileNavbar />
       <div className="mainContentDiv">
         <div className="firstDivContainer">
           <h1 className="mainTitle">

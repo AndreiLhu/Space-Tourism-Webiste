@@ -3,3 +3,37 @@
     display: none;
   }
 }
+
+.logoNavContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.navList {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 30px;
+  font-size: 22px;
+}
+.navList a:hover {
+  color: #1c2a35;
+  transition: 0.5s;
+}
+.navMobileLogo {
+  margin: 5px;
+  max-width: 35px;
+}
+
+.mobileNavbarButton {
+  border: none;
+  font-size: 35px;
+  background-color: transparent;
+  margin: 10px;
+  color: white;
+}

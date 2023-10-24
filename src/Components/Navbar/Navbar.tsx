@@ -6,7 +6,10 @@ const Navbar: React.FC = () => {
   return (
     <>
       <div className="mainNavbarContainer">
-        <img src={logo} alt="logo" className="navLogo" />
+        <Link to="/">
+          <img src={logo} alt="logo" className="navLogo" />
+        </Link>
+
         <div className="lineNavbar"></div>
         <div className="navbarLinksContainer">
           <Link to="/">00HOME</Link>

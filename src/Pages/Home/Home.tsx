@@ -1,11 +1,13 @@
 import { NavLink } from 'react-router-dom';
 import Navbar from '../../Components/Navbar/Navbar';
 import './home.css';
+import MobileNavbar from '../../Components/MobileNavbar/MobileNavbar';
 
 const Home: React.FC = () => {
   return (
     <div className="homeBackground ">
       <Navbar />
+      <MobileNavbar />
       <div className="mainHomeDiv">
         <div className="textContainer">
           <h3 className=" title">SO, YOU WANT TO TRAVEL TO</h3>

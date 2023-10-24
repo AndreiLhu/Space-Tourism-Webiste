@@ -12,8 +12,8 @@
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  margin-top: 15vh;
   width: 90%;
+  padding-top: 15vh;
 }
 .destinationInfoContainer {
   color: white;
@@ -46,7 +46,7 @@
   .mainContentDiv {
     display: block;
     margin: auto;
-    margin-top: 30px;
+
     text-align: -webkit-center;
   }
   .mainDestinationPicture {
