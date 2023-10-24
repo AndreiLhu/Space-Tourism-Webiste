@@ -4,12 +4,10 @@ import Destination from './Pages/Destination/Destination';
 import Home from './Pages/Home/Home';
 import { Route, Routes } from 'react-router';
 import Technology from './Pages/Technology/Technology';
-import MobileNavbar from './Components/MobileNavbar/MobileNavbar';
 
 function App() {
   return (
     <React.Fragment>
-      {/* <MobileNavbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/crew" element={<Crew />} />
