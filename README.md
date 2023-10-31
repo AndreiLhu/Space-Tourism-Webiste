@@ -5,7 +5,7 @@ This is a solution to the [Space tourism multi-page website challenge on Fronten
 ### Links
 
 - Solution URL: [Github](https://github.com/AndreiLhu/Space-Tourism-Webiste)
-- Live Site URL: [Space Tourism](https://space-tourism-andreilhu.vercel.app/)
+- Live Site URL: [Space Tourism](https://space-tourism-webiste-etwftukhq-andreilhu.vercel.app/)
 
 ### Built with
 
