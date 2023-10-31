@@ -7,7 +7,7 @@ type tPictureProps = {
 
 const Picture = ({
   alt,
-  className = 'mainPictures',
+  className = 'main-pictures',
   pngPicture,
   webpPicture,
 }: tPictureProps) => {

@@ -11,16 +11,16 @@ const TechnologyInfo = ({
   images,
 }: TechnologyInfoContainerProps) => {
   return (
-    <div className="mainTechnologyInfoContainer">
+    <div className="main-technology-info-container">
       <div>
         <h4 className="terminology">THE TERMINOLOGY...</h4>
-        <h2 className="mainTechnologyInfoName">{name}</h2>
-        <p className="descriptionInfo">{description}</p>
+        <h2 className="main-technology-info-name">{name}</h2>
+        <p className="description-info">{description}</p>
       </div>
       <img
         alt={`image of the ${name}`}
         src={images}
-        className="mainTechnologyPicture"
+        className="main-technology-picture"
       />
     </div>
   );

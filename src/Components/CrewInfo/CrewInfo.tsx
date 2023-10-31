@@ -7,13 +7,13 @@ interface CrewInfoContainerProps {
 
 const CrewInfo = ({ name, role, bio }: CrewInfoContainerProps) => {
   return (
-    <div className="mainCrewContainer">
+    <div className="main-crew-container">
       <div>
-        <p className="crewRole">{role}</p>
-        <h2 className="mainCrewName">{name}</h2>
+        <p className="crew-role">{role}</p>
+        <h2 className="main-crew-name">{name}</h2>
 
         <div>
-          <p className="crewBio">{bio}</p>
+          <p className="crew-bio">{bio}</p>
         </div>
       </div>
     </div>

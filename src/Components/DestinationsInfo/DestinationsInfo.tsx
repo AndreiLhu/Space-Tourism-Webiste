@@ -14,22 +14,22 @@ const DestinationsInfo = ({
   travelTime,
 }: PlanetInfoContainerProps) => {
   return (
-    <div className="mainContainer">
+    <div className="main-container">
       <div>
-        <h2 className="mainPlanetName">{name}</h2>
-        <p className="planetDescription">{description}</p>
+        <h2 className="main-planet-name">{name}</h2>
+        <p className="planet-description">{description}</p>
 
         <div>
-          <div className="descriptionLine"></div>
-          <div className="distanceContainer">
+          <div className="description-line"></div>
+          <div className="distance-container">
             <div>
-              <h4 className="distanceSubtitle">AVG. DISTANCE</h4>
-              <p className="distanceValue">{distance.toLocaleUpperCase()}</p>
+              <h4 className="distance-subtitle">AVG. DISTANCE</h4>
+              <p className="distance-value">{distance.toLocaleUpperCase()}</p>
             </div>
 
-            <div className="travelTimeDiv">
-              <h4 className="distanceSubtitle">EST. TRAVEL TIME</h4>
-              <p className="distanceValue">{travelTime.toLocaleUpperCase()}</p>
+            <div className="travel-time-div">
+              <h4 className="distance-subtitle">EST. TRAVEL TIME</h4>
+              <p className="distance-value">{travelTime.toLocaleUpperCase()}</p>
             </div>
           </div>
         </div>

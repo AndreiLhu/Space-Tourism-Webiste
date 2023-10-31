@@ -1,4 +1,4 @@
-.destinationBackground {
+.destination-background {
   background-image: url(../../../public/assets/destination/background-destination-desktop.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -6,7 +6,7 @@
   min-height: 100vh;
 }
 
-.mainContentDiv {
+.main-content-div {
   display: flex;
   margin-left: 20vh;
   justify-content: space-around;
@@ -15,16 +15,16 @@
   width: 90%;
   padding-top: 15vh;
 }
-.destinationInfoContainer {
+.destination-info-container {
   color: white;
   max-width: 450px;
   text-align: left;
 }
-.mainDestinationPicture {
+.main-destination-picture {
   margin: auto;
   width: 90%;
 }
-.planetsNameButton {
+.planets-name-button {
   border: none;
   background: transparent;
   color: white;
@@ -33,29 +33,33 @@
   border: none;
 }
 
-.planetsNameButton:hover {
+.planets-name-button:hover {
   text-decoration: underline;
 }
-.planetsNameButtonsContainer {
+.planets-name-buttons-container {
   justify-content: space-between;
   align-items: center;
   justify-content: flex-start;
 }
+.main-title {
+  color: white;
+  margin-bottom: 10px;
+}
 
 @media screen and (max-width: 900px) {
-  .mainContentDiv {
+  .main-content-div {
     display: block;
     margin: auto;
 
     text-align: -webkit-center;
   }
-  .mainDestinationPicture {
+  .main-destination-picture {
     max-width: 350px;
   }
-  .destinationInfoContainer {
+  .destination-info-container {
     text-align: center;
   }
-  .planetsNameButtonsContainer {
+  .planets-name-buttons-container {
     align-items: center;
     justify-content: center;
   }

@@ -1,32 +1,32 @@
-.mainTechnologyInfoContainer {
+.main-technology-info-container {
   display: flex;
 }
 .terminology {
   font-weight: 100;
 }
 
-.mainTechnologyPicture {
+.main-technology-picture {
   max-width: 400px;
 }
-.descriptionInfo {
+.description-info {
   max-width: 500px;
   line-height: 25px;
   font-size: 20px;
   margin-right: 100px;
 }
-.mainTechnologyInfoName {
+.main-technology-info-name {
   font-size: 70px;
   font-weight: 200;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1000px) {
-  .mainTechnologyInfoContainer {
+  .main-technology-info-container {
     display: block;
   }
-  .mainTechnologyPicture {
+  .main-technology-picture {
     width: 100%;
   }
-  .descriptionInfo {
+  .description-info {
     text-align: center;
     margin: auto;
     padding-bottom: 30px;

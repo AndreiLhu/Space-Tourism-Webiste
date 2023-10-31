@@ -14,22 +14,22 @@ const Technology: React.FC = () => {
   }, []);
   return (
     <>
-      <div className="technologyBackground">
+      <div className="technology-background">
         <Navbar />
         <MobileNavbar />
-        <h1 className="mainTechnologyTitle">
-          <span className="numberTechnologyTitle">03</span> SPACE LAUNCH 101
+        <h1 className="main-technology-title">
+          <span className="number-technology-title">03</span> SPACE LAUNCH 101
         </h1>
-        <div className="mainContentTechnologyDiv">
-          <ul className="technologyButtonContainer">
+        <div className="main-content-technology-div">
+          <ul className="technology-button-container">
             {technology.map((technologyInfo, index) => (
               <button
                 key={index}
                 onClick={() => onChangeTechnology(index)}
-                className="technologyButton"
+                className="technology-button"
               >
                 {index + 1}
-                <div className="technologyInfoHiding">
+                <div className="technology-info-hiding">
                   {technologyInfo.description}
                 </div>
               </button>

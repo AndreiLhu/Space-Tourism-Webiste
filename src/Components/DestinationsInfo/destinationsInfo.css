@@ -1,46 +1,46 @@
-.mainContainer {
+.main-container {
   letter-spacing: 0.05rem;
 }
-.mainPlanetName {
+.main-planet-name {
   font-size: 100px;
   font-weight: 200;
 }
-.planetDescription {
+.planet-description {
   line-height: 24px;
 }
 
-.descriptionLine {
+.description-line {
   border-bottom: 1px solid white;
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.distanceContainer {
+.distance-container {
   display: flex;
   justify-content: flex-start;
 }
-.distanceContainer :first-child {
+.distance-container :first-child {
   margin-right: 70px;
 }
-.distanceSubtitle {
+.distance-subtitle {
   font-size: 12px;
   font-weight: 200;
   margin-bottom: 10px;
 }
-.distanceValue {
+.distance-value {
   font-size: 25px;
   font-weight: 200;
 }
 
 @media screen and (max-width: 500px) {
-  .distanceContainer {
+  .distance-container {
     display: block;
 
     padding-bottom: 20px;
   }
-  .distanceContainer :first-child {
+  .distance-container :first-child {
     margin-right: 0;
   }
-  .travelTimeDiv {
+  .travel-time-div {
     margin-top: 20px;
   }
 }

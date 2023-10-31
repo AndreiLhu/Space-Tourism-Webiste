@@ -1,34 +1,34 @@
-.crewBackground {
+.crew-background {
   background-image: url(../../../public/assets/crew/background-crew-desktop.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
 }
-.crewInfoHiding {
+.crew-info-hiding {
   display: none;
 }
-.mainCrewPicture {
+.main-crew-picture {
   max-width: 600px;
   height: auto;
 }
 
-.crewButton {
+.crew-button {
   border: 3px solid rgb(185, 185, 185);
   border-radius: 50%;
   margin: 10px;
   margin-top: 100px;
 }
-.crewButtonCircle {
+.crew-button-circle {
   background-color: rgb(185, 185, 185);
   width: 10px;
   height: 10px;
 }
-.crewButton:hover {
+.crew-button:hover {
   border: 4px solid rgb(185, 185, 185);
   transition: 0.1s ease-in-out;
 }
-.mainContentCrewDiv {
+.main-content-crew-div {
   display: flex;
   margin-left: 20vh;
   justify-content: space-around;
@@ -37,25 +37,25 @@
   width: 90%;
   letter-spacing: 0.05rem;
 }
-.crewInfoContainer {
+.crew-info-container {
   max-width: 500px;
   text-align: left;
 }
 
 @media screen and (max-width: 1000px) {
-  .mainContentCrewDiv {
+  .main-content-crew-div {
     display: block;
     padding-top: 15vh;
     margin-top: 0;
     text-align: -webkit-center;
   }
-  .mainCrewPicture {
+  .main-crew-picture {
     max-width: 350px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .crewBackground {
+  .crew-background {
     background-image: url(../../../public/assets/crew/background-crew-mobile.jpg);
   }
 }

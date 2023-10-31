@@ -1,41 +1,32 @@
-.mainNavbarContainer {
+.main-navbar-container {
   display: flex;
-
   width: 100%;
   padding-top: 30px;
   padding-left: 10vh;
 }
 
-/* .lineNavbar {
-  border-bottom: 1px solid white;
-  width: 30%;
-  align-self: center;
-  z-index: 99;
-  margin-left: 100px;
-} */
-
-.navbarLinksContainer {
+.navbar-links-container {
   backdrop-filter: blur(40.7742px);
   background: rgba(255, 255, 255, 0.04);
   align-self: center;
   margin-left: auto;
   padding: 30px;
 }
-.navbarLinksContainer a {
+.navbar-links-container a {
   margin: 20px;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-.navbarLinksContainer a:hover {
+.navbar-links-container a:hover {
   text-decoration: underline;
 }
-.navLogo {
+.nav-logo {
   width: auto;
   height: 50px;
 }
 @media screen and (max-width: 750px) {
-  .mainNavbarContainer {
+  .main-navbar-container {
     display: none;
   }
 }

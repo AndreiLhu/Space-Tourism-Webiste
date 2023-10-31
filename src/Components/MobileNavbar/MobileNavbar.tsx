@@ -5,11 +5,6 @@ import logo from '../../assets/shared/logo.svg';
 import { AiOutlineClose } from 'react-icons/ai';
 import { FiMenu } from 'react-icons/fi';
 
-// interface IMobileNavbar {
-//   isMobileMenuOpen: boolean;
-//   toggleMobileMenu: () => void;
-// }
-
 const MobileNavbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] =
     React.useState<boolean>(false);
@@ -18,16 +13,16 @@ const MobileNavbar: React.FC = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   return (
-    <div className=" mainMobileNavbarContainer">
-      <div className="logoNavContainer">
+    <div className=" main-mobile-navbar-container">
+      <div className="logo-nav-container">
         <div>
           <Link to="/">
-            <img src={logo} alt="logo" className="navMobileLogo" />
+            <img src={logo} alt="logo" className="nav-mobile-logo" />
           </Link>
         </div>
         <div>
           <button
-            className="mobileNavbarButton"
+            className="mobile-navbar-button"
             type="button"
             onClick={() => toggleMobileMenu()}
           >
@@ -37,23 +32,23 @@ const MobileNavbar: React.FC = () => {
       </div>
 
       {isMobileMenuOpen && (
-        <div className="navList">
-          <div className="linkList">
+        <div className="nav-list">
+          <div className="link-list">
             <Link to="/" onClick={() => toggleMobileMenu()}>
               <span>00</span>home
             </Link>
           </div>
-          <div className="linkList">
+          <div className="link-list">
             <Link to="/destination" onClick={() => toggleMobileMenu()}>
               <span>01</span>destination
             </Link>
           </div>
-          <div className="linkList">
+          <div className="link-list">
             <Link to="/crew" onClick={() => toggleMobileMenu()}>
               <span>02</span>crew
             </Link>
           </div>
-          <div className="linkList">
+          <div className="link-list">
             <Link to="/technology" onClick={() => toggleMobileMenu()}>
               <span>03</span>technology
             </Link>

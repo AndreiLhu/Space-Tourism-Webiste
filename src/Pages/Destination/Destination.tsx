@@ -15,29 +15,29 @@ const Destination: React.FC = () => {
   }, []);
 
   return (
-    <div className="destinationBackground">
+    <div className="destination-background">
       <Navbar />
       <MobileNavbar />
-      <div className="mainContentDiv">
-        <div className="firstDivContainer">
-          <h1 className="mainTitle">
-            <span className="numberTitle">01</span> PICK YOUR DESTINATION
+      <div className="main-content-div">
+        <div className="first-div-container">
+          <h1 className="main-title">
+            <span className="number-title">01</span> PICK YOUR DESTINATION
           </h1>
 
           <Picture
-            className="mainDestinationPicture"
+            className="main-destination-picture"
             alt={destinations[planetId].name}
             pngPicture={destinations[planetId].images.png}
             webpPicture={destinations[planetId].images.webp}
           />
         </div>
-        <div className="destinationInfoContainer">
-          <ul className="planetsNameButtonsContainer">
+        <div className="destination-info-container">
+          <ul className="planets-name-buttons-container">
             {destinations.map((planetInfo, index) => (
               <button
                 key={index}
                 onClick={() => onChangePlanet(index)}
-                className="planetsNameButton"
+                className="planets-name-button"
               >
                 {planetInfo.name.toUpperCase()}
               </button>

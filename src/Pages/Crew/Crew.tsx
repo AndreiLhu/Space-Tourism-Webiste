@@ -16,13 +16,13 @@ const Crew: React.FC = () => {
 
   return (
     <>
-      <div className="crewBackground">
+      <div className="crew-background">
         <MobileNavbar />
         <Navbar />
-        <div className="mainContentCrewDiv">
-          <div className="crewInfoContainer">
-            <h1 className="mainTitle crewTitle">
-              <span className="numberTitle">02</span> MEET YOUR CREW
+        <div className="main-content-crew-div">
+          <div className="crew-info-container">
+            <h1 className="main-title crew-title">
+              <span className="number-title">02</span> MEET YOUR CREW
             </h1>
 
             <CrewInfo
@@ -35,10 +35,10 @@ const Crew: React.FC = () => {
                 <button
                   key={index}
                   onClick={() => onChangeCrew(index)}
-                  className="crewButton"
+                  className="crew-button"
                 >
-                  <div className="crewButtonCircle">
-                    <div className="crewInfoHiding">{crewInfo.bio}</div>
+                  <div className="crew-button-circle">
+                    <div className="crew-info-hiding">{crewInfo.bio}</div>
                   </div>
                 </button>
               ))}
