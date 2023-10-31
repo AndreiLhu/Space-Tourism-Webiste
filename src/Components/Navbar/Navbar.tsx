@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
 import './navbar.css';
+import { Link } from 'react-router-dom';
 import logo from '../../../src/assets/shared/logo.svg';
 
 const Navbar: React.FC = () => {
